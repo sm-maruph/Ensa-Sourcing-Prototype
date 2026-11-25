@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#112f32"><meta name="description" content="Ensa Sourcing Software — interactive multi-role management demonstration"><title>Ensa Software · Executive overview</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="shell">
+ <aside class="sidebar" id="sidebar">
+  <div class="logo-row"><div class="monogram">e<span>.</span></div><div class="logo-copy"><strong>ensa<span>software</span></strong><small>SOURCING INTELLIGENCE</small></div><button class="sidebar-close" id="closeSidebar" aria-label="Close menu">×</button></div>
+  <div class="org-box"><span class="org-symbol">ES</span><span><b>Ensa Sourcing Ltd.</b><small>Enterprise workspace</small></span><span class="chevron">⌄</span></div>
+  <div class="side-label">WORKSPACE</div><nav id="nav" aria-label="Workspace pages"></nav>
+  <div class="side-foot"><div class="demo-status"><i></i> FULL SYSTEM DEMONSTRATION</div><div class="side-profile"><span id="sideAvatar">MR</span><div><b id="sideUser">Mahmud Rahman</b><small id="sideRole">Executive Director</small></div><span class="more">•••</span></div></div>
+ </aside>
+ <div class="app-main"><header class="topbar"><div class="topbar-left"><button class="menu-button" id="menuBtn" aria-label="Open menu">☰</button><span class="crumb">Ensa Software</span><span class="slash">/</span><strong id="crumbTitle">Executive dashboard</strong></div><div class="topbar-right"><span class="demo-chip"><i></i> DEMO MODE</span><button class="icon-button" id="searchBtn" aria-label="Search">⌕</button><button class="icon-button bell" id="bellBtn" aria-label="Notifications">♧<i></i></button><div class="top-divider"></div><button type="button" class="top-user" data-action="switch-user" aria-label="Switch user dashboard"><span class="avatar" id="topAvatar">MR</span><div><b id="topUser">Mahmud Rahman</b><small id="topRole">Executive Director</small></div><span class="top-switch-icon">⌄</span></button></div></header>
+ <main id="main" class="main-content"></main>
+ <nav class="mobile-dock" aria-label="Mobile quick navigation"><button data-page="dashboard"><span>▦</span>Home</button><button data-action="activity"><span>◷</span>Activity</button><button data-action="switch-user"><span>♙</span>Switch user</button><button id="mobileMore" type="button"><span>☷</span>Menu</button></nav>
+ <footer class="foot"><span>Ensa Sourcing Ltd. · Software concept demonstration</span><span>Sample information only · Crafted by <b>theatives</b></span></footer>
+ </div>
+</div>
+<div id="backdrop" class="mobile-backdrop"></div><div id="modal"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body></html>
